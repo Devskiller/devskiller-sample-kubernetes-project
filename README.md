@@ -15,7 +15,7 @@ download the project code or clone the project’s Git repository and work
 locally.
 
 You can check out this short video to see the test from the [candidate's
-perspective](https://goo.gl/AXXaTT).
+perspective](https://devskiller.zendesk.com/hc/en-us/articles/360019530419-Programming-task-project-descriptor).
 
 This repo contains a sample DevOps project and below you can find a detailed
 guide for creating your own programming project.
@@ -64,8 +64,8 @@ Here is an example project descriptor:
         "testNamePatterns" : [ ".*Verification.*" ]
     },
      "cloud": {
-        "k8sVersion": "1.20", # required 
-        "instanceSize": "medium" # required
+        "k8sVersion": "1.20", 
+        "instanceSize": "medium"
     }
 }
 ```
